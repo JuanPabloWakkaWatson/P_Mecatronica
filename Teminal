@@ -1,0 +1,153 @@
+robotica@cl94:~/Documents/elwakka$ mkdir P_Mecatronica
+robotica@cl94:~/Documents/elwakka$ ls -la
+total 12
+drwxrwxr-x  3 robotica robotica 4096 Aug 17 12:59 .
+drwxr-xr-x 11 robotica robotica 4096 Aug 17 12:53 ..
+drwxrwxr-x  2 robotica robotica 4096 Aug 17 12:59 P_Mecatronica
+robotica@cl94:~/Documents/elwakka$ git init
+Initialised empty Git repository in /home/robotica/Documents/elwakka/.git/
+robotica@cl94:~/Documents/elwakka$ mkdir Practica01
+robotica@cl94:~/Documents/elwakka$ cd P_Mecatronica
+robotica@cl94:~/Documents/elwakka/P_Mecatronica$ mkdir Practica01
+robotica@cl94:~/Documents/elwakka/P_Mecatronica$ mkdir Dir1
+robotica@cl94:~/Documents/elwakka/P_Mecatronica$ cd Dir1
+robotica@cl94:~/Documents/elwakka/P_Mecatronica/Dir1$ mkdir Dir11
+robotica@cl94:~/Documents/elwakka/P_Mecatronica/Dir1$ mkdir Dir12
+robotica@cl94:~/Documents/elwakka/P_Mecatronica/Dir1$ cd Dir11
+robotica@cl94:~/Documents/elwakka/P_Mecatronica/Dir1/Dir11$ mkdir Dir111
+robotica@cl94:~/Documents/elwakka/P_Mecatronica/Dir1/Dir11$ mkdir Dir112
+robotica@cl94:~/Documents/elwakka/P_Mecatronica/Dir1/Dir11$ mkdir Dir113
+robotica@cl94:~/Documents/elwakka/P_Mecatronica/Dir1/Dir11$ cd Dir111
+robotica@cl94:~/Documents/elwakka/P_Mecatronica/Dir1/Dir11/Dir111$ vim arc111.txt
+robotica@cl94:~/Documents/elwakka/P_Mecatronica/Dir1/Dir11/Dir111$ cd ..
+robotica@cl94:~/Documents/elwakka/P_Mecatronica/Dir1/Dir11$ cd Dir112
+robotica@cl94:~/Documents/elwakka/P_Mecatronica/Dir1/Dir11/Dir112$ vim arch112.py
+robotica@cl94:~/Documents/elwakka/P_Mecatronica/Dir1/Dir11/Dir112$ cd ..
+robotica@cl94:~/Documents/elwakka/P_Mecatronica/Dir1/Dir11$ cd..
+cd..: command not found
+robotica@cl94:~/Documents/elwakka/P_Mecatronica/Dir1/Dir11$ cd ..
+robotica@cl94:~/Documents/elwakka/P_Mecatronica/Dir1$ ls - la
+ls: cannot access '-': No such file or directory
+ls: cannot access 'la': No such file or directory
+robotica@cl94:~/Documents/elwakka/P_Mecatronica/Dir1$ ls -la
+total 16
+drwxrwxr-x 4 robotica robotica 4096 Aug 17 13:01 .
+drwxrwxr-x 4 robotica robotica 4096 Aug 17 13:01 ..
+drwxrwxr-x 5 robotica robotica 4096 Aug 17 13:02 Dir11
+drwxrwxr-x 2 robotica robotica 4096 Aug 17 13:01 Dir12
+robotica@cl94:~/Documents/elwakka/P_Mecatronica/Dir1$ cd Dir12
+robotica@cl94:~/Documents/elwakka/P_Mecatronica/Dir1/Dir12$ mkdir Dir121
+robotica@cl94:~/Documents/elwakka/P_Mecatronica/Dir1/Dir12$ cd Dir121
+robotica@cl94:~/Documents/elwakka/P_Mecatronica/Dir1/Dir12/Dir121$ mkdir Dir1212robotica@cl94:~/Documents/elwakka/P_Mecatronica/Dir1/Dir12/Dir121$ vim arh121.txt
+robotica@cl94:~/Documents/elwakka/P_Mecatronica/Dir1/Dir12/Dir121$ cd Dir1212
+robotica@cl94:~/Documents/elwakka/P_Mecatronica/Dir1/Dir12/Dir121/Dir1212$ vim arch1212.txt
+robotica@cl94:~/Documents/elwakka/P_Mecatronica/Dir1/Dir12/Dir121/Dir1212$ cd ..robotica@cl94:~/Documents/elwakka/P_Mecatronica/Dir1/Dir12/Dir121$ cd ..
+robotica@cl94:~/Documents/elwakka/P_Mecatronica/Dir1/Dir12$ cd ..
+robotica@cl94:~/Documents/elwakka/P_Mecatronica/Dir1$ cd ..
+robotica@cl94:~/Documents/elwakka/P_Mecatronica$ tree
+.
+├── Dir1
+│   ├── Dir11
+│   │   ├── Dir111
+│   │   │   └── arc111.txt
+│   │   ├── Dir112
+│   │   │   └── arch112.py
+│   │   └── Dir113
+│   └── Dir12
+│       └── Dir121
+│           ├── arh121.txt
+│           └── Dir1212
+│               └── arch1212.txt
+└── Practica01
+
+9 directories, 4 files
+robotica@cl94:~/Documents/elwakka/P_Mecatronica$ mv Dir1 Practica01
+robotica@cl94:~/Documents/elwakka/P_Mecatronica$ cd Practica01
+robotica@cl94:~/Documents/elwakka/P_Mecatronica/Practica01$ cp Dir1 Dir1_cp -R
+robotica@cl94:~/Documents/elwakka/P_Mecatronica/Practica01$ mv Dir1_cp Copua_dirrobotica@cl94:~/Documents/elwakka/P_Mecatronica/Practica01$ mv Copua_dir Copia_dir
+robotica@cl94:~/Documents/elwakka/P_Mecatronica/Practica01$ cp Dir1
+cp: missing destination file operand after 'Dir1'
+Try 'cp --help' for more information.
+robotica@cl94:~/Documents/elwakka/P_Mecatronica/Practica01$ cd Dir1
+robotica@cl94:~/Documents/elwakka/P_Mecatronica/Practica01/Dir1$ cd Dir11
+robotica@cl94:~/Documents/elwakka/P_Mecatronica/Practica01/Dir1/Dir11$ cd Dir111robotica@cl94:~/Documents/elwakka/P_Mecatronica/Practica01/Dir1/Dir11/Dir111$ vim arc111.txt
+robotica@cl94:~/Documents/elwakka/P_Mecatronica/Practica01/Dir1/Dir11/Dir111$ nano arc111.txt
+robotica@cl94:~/Documents/elwakka/P_Mecatronica/Practica01/Dir1/Dir11/Dir111$ cd ..
+robotica@cl94:~/Documents/elwakka/P_Mecatronica/Practica01/Dir1/Dir11$ cd ..
+robotica@cl94:~/Documents/elwakka/P_Mecatronica/Practica01/Dir1$ cd ..
+robotica@cl94:~/Documents/elwakka/P_Mecatronica/Practica01$ cd ..
+robotica@cl94:~/Documents/elwakka/P_Mecatronica$ cd ..
+robotica@cl94:~/Documents/elwakka$ cd ..
+robotica@cl94:~/Documents$ cd elwakka
+robotica@cl94:~/Documents/elwakka$ cd P_Mecatronica/
+robotica@cl94:~/Documents/elwakka/P_Mecatronica$ ls -la
+total 12
+drwxrwxr-x 3 robotica robotica 4096 Aug 17 13:08 .
+drwxrwxr-x 5 robotica robotica 4096 Aug 17 13:00 ..
+drwxrwxr-x 4 robotica robotica 4096 Aug 17 13:11 Practica01
+robotica@cl94:~/Documents/elwakka/P_Mecatronica$ git --help
+usage: git [--version] [--help] [-C <path>] [-c <name>=<value>]
+           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
+           [-p | --paginate | --no-pager] [--no-replace-objects] [--bare]
+           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
+           <command> [<args>]
+
+These are common Git commands used in various situations:
+
+start a working area (see also: git help tutorial)
+   clone      Clone a repository into a new directory
+   init       Create an empty Git repository or reinitialise an existing one
+
+work on the current change (see also: git help everyday)
+   add        Add file contents to the index
+   mv         Move or rename a file, a directory, or a symlink
+   reset      Reset current HEAD to the specified state
+   rm         Remove files from the working tree and from the index
+
+examine the history and state (see also: git help revisions)
+   bisect     Use binary search to find the commit that introduced a bug
+   grep       Print lines matching a pattern
+   log        Show commit logs
+   show       Show various types of objects
+   status     Show the working tree status
+
+grow, mark and tweak your common history
+   branch     List, create, or delete branches
+   checkout   Switch branches or restore working tree files
+   commit     Record changes to the repository
+   diff       Show changes between commits, commit and working tree, etc
+   merge      Join two or more development histories together
+   rebase     Reapply commits on top of another base tip
+   tag        Create, list, delete or verify a tag object signed with GPG
+
+collaborate (see also: git help workflows)
+   fetch      Download objects and refs from another repository
+   pull       Fetch from and integrate with another repository or a local branch
+   push       Update remote refs along with associated objects
+
+'git help -a' and 'git help -g' list available subcommands and some
+concept guides. See 'git help <command>' or 'git help <concept>'
+to read about a specific subcommand or concept.
+robotica@cl94:~/Documents/elwakka/P_Mecatronica$ status
+
+Command 'status' not found, did you mean:
+
+  command 'statup' from snap statup (0.79.91)
+  command 'states' from deb enscript
+  command 'qstatus' from deb gridengine-client
+
+See 'snap info <snapname>' for additional versions.
+
+robotica@cl94:~/Documents/elwakka/P_Mecatronica$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	./
+
+nothing added to commit but untracked files present (use "git add" to track)
+robotica@cl94:~/Documents/elwakka/P_Mecatronica$ 
+
